@@ -95,10 +95,10 @@ module Mongoid
 
       ##
       # This method is deprecated
-      def has_attached_file(field, options = {})
-        raise "Mongoid::Paperclip#has_attached_file is deprecated, " +
-              "Use 'has_mongoid_attached_file' instead"
-      end
+      # def has_attached_file(field, options = {})
+      #   raise "Mongoid::Paperclip#has_attached_file is deprecated, " +
+      #         "Use 'has_mongoid_attached_file' instead"
+      # end
     end
 
   end
